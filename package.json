@@ -1,0 +1,54 @@
+{
+  "name": "@rustworkshop/lexer",
+  "version": "1.0.0",
+  "description": "Utility for parsing one-line strings as argument array",
+  "main": "lib/index.js",
+  "keywords": [
+    "lexer",
+    "tokenizer",
+    "tool",
+    "util",
+    "string"
+  ],
+  "author": "2CHEVSKII",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "email": "",
+    "url": ""
+  },
+  "contributors": [
+    "2CHEVSKII"
+  ],
+  "homepage": "https://rustworkshop.space",
+  "icon": "",
+  "markdown": "github",
+  "maintainers": [
+    "2CHEVSKII"
+  ],
+  "private": false,
+  "readme": "README.md",
+  "repository": {
+    "type": "github",
+    "url": ""
+  },
+  "type": "commonjs",
+  "types": "lib/typings/index.d.ts",
+  "dependencies": {},
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build:no-inc": "tsc -p tsconfig.json -i false"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.6",
+    "@typescript-eslint/eslint-plugin": "^2.15.0",
+    "@typescript-eslint/parser": "^2.15.0",
+    "assume": "^2.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "tslib": "^1.10.0",
+    "typescript": "^3.8.0-dev.20200108"
+  }
+}
