@@ -1,6 +1,6 @@
 {
   "name": "@rustworkshop/lexer",
-  "description": "Utility for parsing one-line strings as argument array",
+  "description": "Flexible async string tokenizer",
   "author": "2CHEVSKII",
   "version": "1.0.0",
   "license": "MIT",
@@ -35,18 +35,21 @@
   "private": false,
   "repository": {
     "type": "github",
-    "url": ""
+    "url": "git://github.com/2chevskii/lexer.git"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json",
+    "test": "mocha --recursive ./tests/"
   },
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^13.1.6",
+    "@types/npm": "^2.0.31",
     "@typescript-eslint/eslint-plugin": "^2.15.0",
     "@typescript-eslint/parser": "^2.15.0",
     "assume": "^2.2.0",
     "eslint": "^6.8.0",
+    "mocha": "^7.0.0",
     "typescript": "^3.8.0-dev.20200108"
   }
 }
