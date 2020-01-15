@@ -1,6 +1,6 @@
 {
   "name": "@rustworkshop/lexer",
-  "description": "Flexible async string tokenizer",
+  "description": "Flexible and asynchronous string tokenizer",
   "author": "2CHEVSKII",
   "version": "1.0.0",
   "license": "MIT",
