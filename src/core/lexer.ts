@@ -1,10 +1,42 @@
 import { defaultSettings, stringFromRule } from './defaultRuleset';
 import ITokenizeSettings from '../util/ITokenizeSettings';
 import Token from '../util/Token';
+import TokenType from '../util/TokenType';
 
-export async function tokenize<T>(input: string): Promise<Array<Token<T>>>;
+/**
+ * Asynchronously tokenizes given string following provided (or default) tokenization rules
+ * @export
+ * @param {string} input
+ * @returns {Promise<Array<Token<TokenType>>>}
+ */
+export async function tokenize(input: string): Promise<Array<Token<TokenType>>>;
+/**
+ * Asynchronously tokenizes given string following provided (or default) tokenization rules
+ * @export
+ * @template T
+ * @param {string} input
+ * @param {ITokenizeSettings<T>} settings
+ * @returns {Promise<Array<Token<T>>>}
+ */
 export async function tokenize<T>(input: string, settings: ITokenizeSettings<T>): Promise<Array<Token<T>>>;
+/**
+ * Asynchronously tokenizes given string following provided (or default) tokenization rules
+ * @export
+ * @template T
+ * @param {string} input
+ * @param {ITokenizeSettings<T>} settings
+ * @param {(((result: Array<Token<T>> | undefined, error: Error | undefined) => any) | undefined)} callback
+ */
 export function tokenize<T>(input: string, settings: ITokenizeSettings<T>, callback: ((result: Array<Token<T>> | undefined, error: Error | undefined) => any) | undefined): void;
+/**
+ * Asynchronously tokenizes given string following provided (or default) tokenization rules
+ * @export
+ * @template T
+ * @param {string} input
+ * @param {ITokenizeSettings<T>} [settings=<any>defaultSettings]
+ * @param {(((result?: Array<Token<T>>, error?: Error) => any) | undefined)} [callback]
+ * @returns {(Promise<Array<Token<T>>> | void)}
+ */
 export function tokenize<T>(
     input: string,
     settings: ITokenizeSettings<T> = <any>defaultSettings,

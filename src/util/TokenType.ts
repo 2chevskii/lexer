@@ -1,6 +1,7 @@
 
 /**
  * Default token types
+ * @type {TokenType}
  */
 export type TokenType =
     'GENERIC'

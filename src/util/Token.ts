@@ -1,6 +1,6 @@
 
 /**
- * Unit, which represents mathed pattern
+ * Unit, which represents matched pattern
  * @export
  * @class Token
  * @template T

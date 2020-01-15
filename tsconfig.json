@@ -59,6 +59,6 @@
     "strictPropertyInitialization": true,
     "suppressExcessPropertyErrors": false,
     "suppressImplicitAnyIndexErrors": false,
-    "target": "es2019"
+    "target": "es2017"
   }
 }
