@@ -1,0 +1,10 @@
+src/
+tests/
+node_modules/
+.vscode/
+.eslintignore
+.eslintrc.json
+.gitignore
+package-lock.json
+tsconfig.json
+tsconfig.tsbuildinfo
