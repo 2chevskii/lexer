@@ -1,5 +1,4 @@
 src/
-tests/
 node_modules/
 .vscode/
 .eslintignore
@@ -9,3 +8,4 @@ package-lock.json
 tsconfig.json
 tsconfig.tsbuildinfo
 *.map
+tests
