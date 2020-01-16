@@ -1,9 +1,3 @@
-[codacybadge]: https://api.codacy.com/project/badge/Grade/e6dd7f48bdd64447b79eeffbd3570a0c
-[codacydashboard]: https://app.codacy.com/manual/2chevskii/lexer?utm_source=github.com&utm_medium=referral&utm_content=2chevskii/lexer&utm_campaign=Badge_Grade_Dashboard
-[licensebadge]: https://img.shields.io/github/license/2chevskii/lexer?color=red
-[license]: https://github.com/2chevskii/lexer/blob/master/LICENSE
-[toplangbadge]: https://img.shields.io/github/languages/top/2chevskii/lexer?color=steelblue
-
 # Lexer [![][codacybadge]][codacydashboard] [![][licensebadge]][license] ![toplangbadge]
 
 Tool designed to make tokenizing strings with regexes fast and easy
@@ -71,3 +65,9 @@ By default this package is compiled for ECMA2017 target version, and source code
 3. Compile: `npm run build` (if you skipped step 2 - run `tsc -p tsconfig.json -t <version>`)
 4. Test: `npm test`
 5. Use the package (either from the folder directly or by running `npm pack` and using generated tarball)
+
+[codacybadge]: https://api.codacy.com/project/badge/Grade/e6dd7f48bdd64447b79eeffbd3570a0c
+[codacydashboard]: https://app.codacy.com/manual/2chevskii/lexer?utm_source=github.com&utm_medium=referral&utm_content=2chevskii/lexer&utm_campaign=Badge_Grade_Dashboard
+[licensebadge]: https://img.shields.io/github/license/2chevskii/lexer?color=red
+[license]: https://github.com/2chevskii/lexer/blob/master/LICENSE
+[toplangbadge]: https://img.shields.io/github/languages/top/2chevskii/lexer?color=steelblue
