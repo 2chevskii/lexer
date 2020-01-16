@@ -31,8 +31,9 @@ import * as lexer from '@rustworkshop/lexer'
 const lexer = require('@rustworkshop/lexer')
 ```
 ### Basic tokenization
-Main function of this package is the `tokenize<T>` function, which accepts 1..3 arguments and returns either `Promise<Token<T>>` or `void` (depends on if callback is present)
-This function also exported as `default`, so `import tokenize from '@rustworkshop/lexer'` will allow to use it as well
+Main function of this package is `tokenize<T>`, which accepts 1..3 arguments and returns either `Promise<Token<T>>` or `void` (depends on if the callback is present)
+
+This function is also exported as `default`, so `import tokenize from '@rustworkshop/lexer'` will allow to use it as well
 ```js
 import tokenize from '@rustworkshop/lexer'
 
