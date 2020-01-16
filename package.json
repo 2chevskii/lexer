@@ -39,7 +39,9 @@
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "test": "npm run build && mocha --recursive ./tests/"
+    "test": "npm run build && mocha --recursive ./tests/",
+    "lint": "eslint -o lint-report.json --report-unused-disable-directives --no-inline-config --env-info src/index.js",
+    "fix": "eslint --fix"
   },
   "dependencies": {},
   "devDependencies": {

@@ -14,7 +14,7 @@
     },
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
-        "ecmaVersion": 2018,
+        "ecmaVersion": 2017,
         "sourceType": "module"
     },
     "plugins": [
@@ -33,7 +33,7 @@
             "warn",
             "always"
         ],
-        "no-mixed-spaces-and-tabs": "off",
+        "no-mixed-spaces-and-tabs": "warn",
         "camelcase": "warn",
         "eol-last": "warn",
         "valid-typeof": "error",
