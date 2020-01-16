@@ -35,7 +35,7 @@
     "keyofStringsOnly": false,
     "module": "commonjs",
     "moduleResolution": "node",
-    "newLine": "CRLF",
+    "newLine": "LF",
     "noEmitOnError": false,
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": false,
