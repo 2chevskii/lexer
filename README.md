@@ -73,7 +73,7 @@ By creating your own settings you can use custom type as name of token to have a
 By default this package is compiled for ECMA2017 target version, and source code is not provided with NPM package. However - if you want to raise or downgrade version (must be >= ES5 because of getters usage, which are not supported by ES3 compilation target in TS), you would want to:
 1. Clone this repo: `git clone https://github.com/2chevskii/lexer.git`
 2. Change the target version in `tsconfig.json` (or use `-t <version>` compilation flag while running `tsc` command)
-3. Compile: `npm run build` (if you skipped step 2 - run `tsc -p tsconfig.json -t <version>`)
+3. Compile: `npm run build` (if you have skipped step 2 - run `tsc -p tsconfig.json -t <version>`)
 4. Test: `npm test`
 5. Use the package (either from the folder directly or by running `npm pack` and using generated tarball)
 
