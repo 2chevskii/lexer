@@ -8,3 +8,4 @@ export { Token } from './util/Token';
 export { TokenType } from './util/TokenType';
 
 export default tokenize;
+//
