@@ -1,6 +1,15 @@
-# Lexer [![][codacybadge]][codacydashboard] [![][licensebadge]][license] ![toplangbadge]
+<!-- omit in toc -->
+# Lexer [![][codacybadge]][codacydashboard] [![][licensebadge]][license] ![toplangbadge][] ![ghtagbadge][]
 
 Tool designed to make tokenizing strings with regexes fast and easy
+
+- [Install](#install)
+- [Use](#use)
+  - [Import package](#import-package)
+  - [Basic tokenization](#basic-tokenization)
+  - [Creating own tokenization rules](#creating-own-tokenization-rules)
+  - [Passing own tokenization settings](#passing-own-tokenization-settings)
+- [Compile for different ECMAScript version](#compile-for-different-ecmascript-version)
 
 - [x] Asynchronous
 - [x] Simple
@@ -8,6 +17,7 @@ Tool designed to make tokenizing strings with regexes fast and easy
 - [x] Tokens contain their start and end position in the source string
 - [x] Works with TypeScript
 - [x] Works in both NodeJS and browser
+- [x] Zero dependencies - no additional packages to download
 
 ## Install
 Just `npm i @rustworkshop/lexer` and you are good to go!
@@ -71,3 +81,4 @@ By default this package is compiled for ECMA2017 target version, and source code
 [licensebadge]: https://img.shields.io/github/license/2chevskii/lexer?color=red
 [license]: https://github.com/2chevskii/lexer/blob/master/LICENSE
 [toplangbadge]: https://img.shields.io/github/languages/top/2chevskii/lexer?color=steelblue
+[ghtagbadge]: https://img.shields.io/github/v/tag/2chevskii/lexer?color=hotpink&label=version
