@@ -9,3 +9,4 @@ tsconfig.json
 tsconfig.tsbuildinfo
 *.map
 tests
+logo.png
