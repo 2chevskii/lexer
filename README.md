@@ -91,6 +91,6 @@ By default this package is compiled for ECMA2017 target version, and source code
 [license]: https://github.com/2chevskii/lexer/blob/master/LICENSE
 [toplangbadge]: https://img.shields.io/github/languages/top/2chevskii/lexer?color=steelblue
 [ghtagbadge]: https://img.shields.io/github/v/tag/2chevskii/lexer?color=hotpink&label=version
-[logo]: logo.png
+[logo]: https://raw.githubusercontent.com/2chevskii/lexer/master/logo.png
 [github]: https://github.com/2chevskii/lexer
 [npm]: https://www.npmjs.com/package/@rustworkshop/lexer
