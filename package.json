@@ -44,7 +44,6 @@
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^13.1.6",
-    "@types/npm": "^2.0.31",
     "@typescript-eslint/eslint-plugin": "^2.15.0",
     "@typescript-eslint/parser": "^2.15.0",
     "assume": "^2.2.0",
