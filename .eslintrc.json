@@ -38,7 +38,7 @@
         "eol-last": "warn",
         "valid-typeof": "error",
         "sort-imports": "warn",
-        "no-duplicate-imports": "warn",
+        "no-duplicate-imports": "error",
         "no-case-declarations": "off",
         "no-unused-vars": "off"
     }

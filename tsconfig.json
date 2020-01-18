@@ -1,6 +1,6 @@
 {
   "include": [
-    "./src"
+    "./src/"
   ],
   "exclude": [
     "./node_modules/**/*",
@@ -28,10 +28,10 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
-    "importHelpers": false,
+    "importHelpers": true,
     "inlineSourceMap": false,
     "inlineSources": false,
-    "incremental": false,
+    "incremental": true,
     "keyofStringsOnly": false,
     "module": "commonjs",
     "moduleResolution": "node",
@@ -44,13 +44,13 @@
     "noStrictGenericChecks": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "outDir": "lib",
-    "declarationDir": "lib/typings",
+    "outDir": "./lib/",
+    "declarationDir": "./lib/typings/",
     "preserveConstEnums": true,
     "pretty": true,
     "removeComments": false,
     "resolveJsonModule": true,
-    "rootDir": "src",
+    "rootDir": "./src/",
     "sourceMap": true,
     "strict": true,
     "strictBindCallApply": true,
