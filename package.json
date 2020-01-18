@@ -39,7 +39,8 @@
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "test": "npm run build && mocha --recursive ./tests/"
+    "test": "mocha --recursive ./tests/",
+    "prepublishOnly": "npm run build && npm run test"
   },
   "dependencies": {},
   "devDependencies": {
